@@ -1,0 +1,11 @@
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Domain/bin/Debug/net6.0/InvoiceManagement.Domain.deps.json
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Domain/bin/Debug/net6.0/InvoiceManagement.Domain.dll
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Domain/bin/Debug/net6.0/InvoiceManagement.Domain.pdb
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Domain/obj/Debug/net6.0/InvoiceManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Domain/obj/Debug/net6.0/InvoiceManagement.Domain.AssemblyInfoInputs.cache
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Domain/obj/Debug/net6.0/InvoiceManagement.Domain.AssemblyInfo.cs
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Domain/obj/Debug/net6.0/InvoiceManagement.Domain.csproj.CoreCompileInputs.cache
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Domain/obj/Debug/net6.0/InvoiceManagement.Domain.dll
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Domain/obj/Debug/net6.0/refint/InvoiceManagement.Domain.dll
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Domain/obj/Debug/net6.0/InvoiceManagement.Domain.pdb
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Domain/obj/Debug/net6.0/ref/InvoiceManagement.Domain.dll

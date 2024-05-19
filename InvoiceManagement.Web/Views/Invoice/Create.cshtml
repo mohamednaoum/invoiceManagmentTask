@@ -1,0 +1,152 @@
+@model InvoiceViewModel
+
+@{
+    ViewData["Title"] = "Create Invoice";
+}
+
+<h2>Create Invoice</h2>
+
+<form method="post" asp-action="Create">
+    <div class="form-group">
+        <label asp-for="InvoiceNumber" class="control-label"></label>
+        <input asp-for="InvoiceNumber" class="form-control" />
+        <span asp-validation-for="InvoiceNumber" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Date" class="control-label"></label>
+        <input asp-for="Date" type="date" class="form-control" />
+        <span asp-validation-for="Date" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="StoreId" class="control-label"></label>
+        <select asp-for="StoreId" class="form-control" asp-items="ViewBag.Stores"></select>
+        <span asp-validation-for="StoreId" class="text-danger"></span>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Unit</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="invoice-items">
+            @for (int i = 0; i < Model.Items.Count; i++)
+            {
+                <tr>
+                    <td>
+                        <select asp-for="@Model.Items[i].ItemId" class="form-control" asp-items="ViewBag.Items"></select>
+                    </td>
+                    <td>
+                        <input asp-for="@Model.Items[i].Unit" class="form-control" />
+                    </td>
+                    <td>
+                        <input asp-for="@Model.Items[i].Price" class="form-control" />
+                    </td>
+                    <td>
+                        <input asp-for="@Model.Items[i].Quantity" class="form-control" />
+                    </td>
+                    <td>
+                        <input asp-for="@Model.Items[i].Total" class="form-control" readonly />
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-danger" onclick="removeItem(this)">Remove</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <button type="button" class="btn btn-primary" onclick="addItem()">Add Item</button>
+    <div class="form-group">
+        <label asp-for="Total" class="control-label"></label>
+        <input asp-for="Total" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label asp-for="Discount" class="control-label"></label>
+        <input asp-for="Discount" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Net" class="control-label"></label>
+        <input asp-for="Net" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Create</button>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        var itemTemplate = `<tr>
+            <td>
+                <select name="Items.Index" class="form-control">
+                    @foreach (var item in ViewBag.Items)
+                    {
+                        <option value="@item.Value">@item.Text</option>
+                    }
+                </select>
+            </td>
+            <td>
+                <input name="Items.Unit" class="form-control" />
+            </td>
+            <td>
+                <input name="Items.Price" class="form-control" />
+            </td>
+            <td>
+                <input name="Items.Quantity" class="form-control" />
+            </td>
+            <td>
+                <input name="Items.Total" class="form-control" readonly />
+            </td>
+            <td>
+                <button type="button" class="btn btn-danger" onclick="removeItem(this)">Remove</button>
+            </td>
+        </tr>`;
+
+        function addItem() {
+            $('#invoice-items').append(itemTemplate);
+            updateIndexes();
+        }
+
+        function removeItem(button) {
+            $(button).closest('tr').remove();
+            updateIndexes();
+        }
+
+        function updateIndexes() {
+            $('#invoice-items tr').each(function(index) {
+                $(this).find('select, input').each(function() {
+                    var name = $(this).attr('name');
+                    if (name) {
+                        name = name.replace(/\[\d+\]/, `[${index}]`);
+                        $(this).attr('name', name);
+                    }
+                });
+            });
+        }
+
+        $(document).ready(function () {
+            function calculateTotals() {
+                var total = 0;
+                $('#invoice-items tr').each(function () {
+                    var price = parseFloat($(this).find('input[name$=".Price"]').val()) || 0;
+                    var quantity = parseFloat($(this).find('input[name$=".Quantity"]').val()) || 0;
+                    var itemTotal = price * quantity;
+                    total += itemTotal;
+                    $(this).find('input[name$=".Total"]').val(itemTotal.toFixed(2));
+                });
+
+                var discount = parseFloat($("#Discount").val()) || 0;
+                var net = total - discount;
+
+                $("#Total").val(total.toFixed(2));
+                $("#Net").val(net.toFixed(2));
+            }
+
+            $(document).on('input', 'input[name$=".Price"], input[name$=".Quantity"], #Discount', calculateTotals);
+            calculateTotals();
+        });
+    </script>
+}

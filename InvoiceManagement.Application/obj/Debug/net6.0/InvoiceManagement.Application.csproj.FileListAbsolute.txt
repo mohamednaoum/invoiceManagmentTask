@@ -1,0 +1,15 @@
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/bin/Debug/net6.0/InvoiceManagement.Application.deps.json
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/bin/Debug/net6.0/InvoiceManagement.Application.dll
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/bin/Debug/net6.0/InvoiceManagement.Application.pdb
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/bin/Debug/net6.0/InvoiceManagement.Domain.dll
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/bin/Debug/net6.0/InvoiceManagement.Domain.pdb
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/obj/Debug/net6.0/InvoiceManagement.Application.csproj.AssemblyReference.cache
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/obj/Debug/net6.0/InvoiceManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/obj/Debug/net6.0/InvoiceManagement.Application.AssemblyInfoInputs.cache
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/obj/Debug/net6.0/InvoiceManagement.Application.AssemblyInfo.cs
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/obj/Debug/net6.0/InvoiceManagement.Application.csproj.CoreCompileInputs.cache
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/obj/Debug/net6.0/InvoiceM.E0FA75D6.Up2Date
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/obj/Debug/net6.0/InvoiceManagement.Application.dll
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/obj/Debug/net6.0/refint/InvoiceManagement.Application.dll
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/obj/Debug/net6.0/InvoiceManagement.Application.pdb
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/obj/Debug/net6.0/ref/InvoiceManagement.Application.dll

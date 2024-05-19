@@ -1,0 +1,242 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Web/InvoiceManagement.Web.csproj": {}
+  },
+  "projects": {
+    "/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/InvoiceManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/InvoiceManagement.Application.csproj",
+        "projectName": "InvoiceManagement.Application",
+        "projectPath": "/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/InvoiceManagement.Application.csproj",
+        "packagesPath": "/Users/mohamed.naoum/.nuget/packages/",
+        "outputPath": "/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mohamed.naoum/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/talabat-dhme/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Domain/InvoiceManagement.Domain.csproj": {
+                "projectPath": "/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Domain/InvoiceManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Domain/InvoiceManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Domain/InvoiceManagement.Domain.csproj",
+        "projectName": "InvoiceManagement.Domain",
+        "projectPath": "/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Domain/InvoiceManagement.Domain.csproj",
+        "packagesPath": "/Users/mohamed.naoum/.nuget/packages/",
+        "outputPath": "/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mohamed.naoum/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/talabat-dhme/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Web/InvoiceManagement.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Web/InvoiceManagement.Web.csproj",
+        "projectName": "InvoiceManagement.Web",
+        "projectPath": "/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Web/InvoiceManagement.Web.csproj",
+        "packagesPath": "/Users/mohamed.naoum/.nuget/packages/",
+        "outputPath": "/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Web/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mohamed.naoum/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/talabat-dhme/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/InvoiceManagement.Application.csproj": {
+                "projectPath": "/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Application/InvoiceManagement.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.5.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-arm64",
+              "version": "[6.0.30, 6.0.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.30, 6.0.30]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

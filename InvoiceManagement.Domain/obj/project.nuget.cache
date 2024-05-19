@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6JxOwCj1eMA=",
+  "success": true,
+  "projectFilePath": "/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Domain/InvoiceManagement.Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/mohamed.naoum/.nuget/packages/microsoft.netcore.app.ref/6.0.30/microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "/Users/mohamed.naoum/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.30/microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512"
+  ],
+  "logs": []
+}

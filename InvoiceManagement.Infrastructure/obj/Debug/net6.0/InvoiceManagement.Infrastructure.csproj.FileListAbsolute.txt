@@ -1,0 +1,17 @@
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Infrastructure/bin/Debug/net6.0/InvoiceManagement.Infrastructure.deps.json
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Infrastructure/bin/Debug/net6.0/InvoiceManagement.Infrastructure.runtimeconfig.json
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Infrastructure/bin/Debug/net6.0/InvoiceManagement.Infrastructure.dll
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Infrastructure/bin/Debug/net6.0/InvoiceManagement.Infrastructure.pdb
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Infrastructure/bin/Debug/net6.0/InvoiceManagement.Domain.dll
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Infrastructure/bin/Debug/net6.0/InvoiceManagement.Domain.pdb
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Infrastructure/obj/Debug/net6.0/InvoiceManagement.Infrastructure.csproj.AssemblyReference.cache
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Infrastructure/obj/Debug/net6.0/InvoiceManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Infrastructure/obj/Debug/net6.0/InvoiceManagement.Infrastructure.AssemblyInfoInputs.cache
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Infrastructure/obj/Debug/net6.0/InvoiceManagement.Infrastructure.AssemblyInfo.cs
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Infrastructure/obj/Debug/net6.0/InvoiceManagement.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Infrastructure/obj/Debug/net6.0/InvoiceM.37CD87FE.Up2Date
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Infrastructure/obj/Debug/net6.0/InvoiceManagement.Infrastructure.dll
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Infrastructure/obj/Debug/net6.0/refint/InvoiceManagement.Infrastructure.dll
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Infrastructure/obj/Debug/net6.0/InvoiceManagement.Infrastructure.pdb
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Infrastructure/obj/Debug/net6.0/InvoiceManagement.Infrastructure.genruntimeconfig.cache
+/Users/mohamed.naoum/RiderProjects/InvoiceManagement/InvoiceManagement.Infrastructure/obj/Debug/net6.0/ref/InvoiceManagement.Infrastructure.dll
